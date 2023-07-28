@@ -1,5 +1,5 @@
 {
-  "name": "umi-plugin-demo-curry",
+  "name": "umi-plugin-demo-cf-curry",
   "author": "",
   "version": "0.0.2",
   "main": "dist/cjs/index.js",

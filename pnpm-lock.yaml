@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      plugin-json:
-        specifier: link:@gkczfe@/plugin-json
-        version: link:@gkczfe@/plugin-json
     devDependencies:
       '@changesets/cli':
         specifier: ^2.26.2
@@ -38,7 +34,7 @@ importers:
         version: 5.1.6
       umi:
         specifier: ^4.0.73
-        version: 4.0.73(@babel/core@7.22.9)(@types/node@20.4.5)(eslint@8.45.0)(postcss@8.4.27)(prettier@3.0.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.0.5)(stylelint@14.16.1)(typescript@5.1.6)(webpack@5.88.2)
+        version: 4.0.73(@babel/core@7.22.9)(@types/node@20.4.5)(eslint@8.45.0)(postcss@8.4.27)(prettier@3.0.0)(react-dom@18.2.0)(react@18.2.0)(rollup@2.33.3)(styled-components@6.0.5)(stylelint@14.16.1)(typescript@5.1.6)(webpack@5.88.2)
 
 packages:
 
@@ -4478,7 +4474,7 @@ packages:
       - supports-color
     dev: true
 
-  /@umijs/bundler-vite@4.0.73(@types/node@20.4.5)(postcss@8.4.27):
+  /@umijs/bundler-vite@4.0.73(@types/node@20.4.5)(postcss@8.4.27)(rollup@2.33.3):
     resolution: {integrity: sha512-/smdpwg3APXo8TPp4J4p6Lo4nVf3SbfNsxr3Se9hiuDrDpNzGYtps/S0MXczJYExAJgAJzr9EG0yd5Yu9aadwg==}
     hasBin: true
     dependencies:
@@ -4488,7 +4484,7 @@ packages:
       '@vitejs/plugin-react': 4.0.0(vite@4.3.1)
       less: 4.1.3
       postcss-preset-env: 7.5.0(postcss@8.4.27)
-      rollup-plugin-visualizer: 5.9.0
+      rollup-plugin-visualizer: 5.9.0(rollup@2.33.3)
       vite: 4.3.1(@types/node@20.4.5)(less@4.1.3)
     transitivePeerDependencies:
       - '@types/node'
@@ -4744,7 +4740,7 @@ packages:
       tsx: 3.12.7
     dev: true
 
-  /@umijs/preset-umi@4.0.73(@types/node@20.4.5)(postcss@8.4.27)(styled-components@6.0.5)(typescript@5.1.6)(webpack@5.88.2):
+  /@umijs/preset-umi@4.0.73(@types/node@20.4.5)(postcss@8.4.27)(rollup@2.33.3)(styled-components@6.0.5)(typescript@5.1.6)(webpack@5.88.2):
     resolution: {integrity: sha512-czRhMkOCbYSqi4cFXTLS7i9jQORUedPVByTr5yXpGBTDLw5d+zulyHlnRLLGliwtfnsn70ZJLwR1XyjcNQiYoA==}
     dependencies:
       '@iconify/utils': 2.1.1
@@ -4753,7 +4749,7 @@ packages:
       '@umijs/babel-preset-umi': 4.0.73(styled-components@6.0.5)
       '@umijs/bundler-esbuild': 4.0.73
       '@umijs/bundler-utils': 4.0.73
-      '@umijs/bundler-vite': 4.0.73(@types/node@20.4.5)(postcss@8.4.27)
+      '@umijs/bundler-vite': 4.0.73(@types/node@20.4.5)(postcss@8.4.27)(rollup@2.33.3)
       '@umijs/bundler-webpack': 4.0.73(styled-components@6.0.5)(typescript@5.1.6)(webpack@5.88.2)
       '@umijs/core': 4.0.73
       '@umijs/did-you-know': 1.0.3
@@ -12677,7 +12673,7 @@ packages:
       typescript: 4.9.5
     dev: true
 
-  /rollup-plugin-visualizer@5.9.0:
+  /rollup-plugin-visualizer@5.9.0(rollup@2.33.3):
     resolution: {integrity: sha512-bbDOv47+Bw4C/cgs0czZqfm8L82xOZssk4ayZjG40y9zbXclNk7YikrZTDao6p7+HDiGxrN0b65SgZiVm9k1Cg==}
     engines: {node: '>=14'}
     hasBin: true
@@ -12689,6 +12685,7 @@ packages:
     dependencies:
       open: 8.4.2
       picomatch: 2.3.1
+      rollup: 2.33.3
       source-map: 0.7.4
       yargs: 17.7.2
     dev: true
@@ -14018,7 +14015,7 @@ packages:
     dev: true
     optional: true
 
-  /umi@4.0.73(@babel/core@7.22.9)(@types/node@20.4.5)(eslint@8.45.0)(postcss@8.4.27)(prettier@3.0.0)(react-dom@18.2.0)(react@18.2.0)(styled-components@6.0.5)(stylelint@14.16.1)(typescript@5.1.6)(webpack@5.88.2):
+  /umi@4.0.73(@babel/core@7.22.9)(@types/node@20.4.5)(eslint@8.45.0)(postcss@8.4.27)(prettier@3.0.0)(react-dom@18.2.0)(react@18.2.0)(rollup@2.33.3)(styled-components@6.0.5)(stylelint@14.16.1)(typescript@5.1.6)(webpack@5.88.2):
     resolution: {integrity: sha512-nESgoeAZfWZoAXpe2avFgD664q1ZJCSUo3fXM3AE6rj11SpClmcBUUpIvk5ceCPnTkxmauM5bEn6PGKeYRFvtA==}
     engines: {node: '>=14'}
     hasBin: true
@@ -14028,7 +14025,7 @@ packages:
       '@umijs/bundler-webpack': 4.0.73(styled-components@6.0.5)(typescript@5.1.6)(webpack@5.88.2)
       '@umijs/core': 4.0.73
       '@umijs/lint': 4.0.73(eslint@8.45.0)(styled-components@6.0.5)(stylelint@14.16.1)(typescript@5.1.6)
-      '@umijs/preset-umi': 4.0.73(@types/node@20.4.5)(postcss@8.4.27)(styled-components@6.0.5)(typescript@5.1.6)(webpack@5.88.2)
+      '@umijs/preset-umi': 4.0.73(@types/node@20.4.5)(postcss@8.4.27)(rollup@2.33.3)(styled-components@6.0.5)(typescript@5.1.6)(webpack@5.88.2)
       '@umijs/renderer-react': 4.0.73(react-dom@18.2.0)(react@18.2.0)
       '@umijs/server': 4.0.73
       '@umijs/test': 4.0.73(@babel/core@7.22.9)

@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm --filter=@qftjs/* run build",
-    "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version"
   },
@@ -13,7 +11,6 @@
   "type": "module",
   "author": "",
   "license": "ISC",
-  "private": "true",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "commitizen": "^4.3.0",

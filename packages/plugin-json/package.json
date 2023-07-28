@@ -1,15 +1,26 @@
 {
-  "name": "@gkczfe/plugin-json",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "umi-plugin-demo",
+  "author": "",
+  "version": "0.0.2",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
   "scripts": {
-    "build": "father-build"
+    "dev": "father dev",
+    "build": "father build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "publishConfig": {
-    "access": "public"
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "father": "^4.3.0",
+    "typescript": "^5.1.6",
+    "umi": "^4.0.73"
   }
 }

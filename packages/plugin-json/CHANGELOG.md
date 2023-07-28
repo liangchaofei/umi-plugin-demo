@@ -1,5 +1,11 @@
 # umi-plugin-demo
 
+## 0.0.7
+
+### Patch Changes
+
+- qw
+
 ## 0.0.6
 
 ### Patch Changes

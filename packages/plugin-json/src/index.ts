@@ -3,9 +3,7 @@ import { IApi } from 'umi';
 
 export default function(api: IApi, options: any) {
     api.onStart(() => {
-      console.log('--------custom111--------------------');
-      console.log(options);
-      console.log(api.config.custom.callback())
+      console.log('--------custom1222--------------------');
     });
     api.describe(({
       key: 'custom',

@@ -1,5 +1,11 @@
 # umi-plugin-demo
 
+## 0.0.5
+
+### Patch Changes
+
+- bug
+
 ## 0.0.4
 
 ### Patch Changes

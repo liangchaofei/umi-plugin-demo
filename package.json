@@ -16,5 +16,6 @@
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "father-build": "^1.22.5"
-  }
+  },
+  "private":"true"
 }

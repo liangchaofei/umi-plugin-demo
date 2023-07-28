@@ -1,0 +1,26 @@
+{
+  "name": "umi-plugin-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter=@qftjs/* run build",
+    "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
+    "changeset": "changeset",
+    "version-packages": "changeset version"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "father-build": "^1.22.5"
+  },
+  "dependencies": {
+    "plugin-json": "link:@gkczfe@/plugin-json"
+  }
+}
